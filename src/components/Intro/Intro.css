@@ -1,0 +1,61 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.cm {
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    padding-right: 15px;
+    z-index: -1;
+    object-fit: cover;
+    height: 80vh;
+}
+
+.prevent-select {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+    color: #007bff;
+}
+.firstText {
+    font-size: medium;
+    font-weight: 100;
+}
+
+.selfIntroduction {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.introSelf {
+    font-size: medium;
+    font-weight: 100;
+
+}
+/* @media screen and (max-width: 840px) {
+    .cm {
+        right: -10vw
+    }
+    .selfIntroduction {
+        font-size: 10vw;
+    }
+    .firstText {
+        font-size: 4.5vw;
+    }
+    
+}     */
