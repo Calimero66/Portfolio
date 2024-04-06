@@ -17,11 +17,11 @@ function projects() {
 
     return (
         <>
-            <div className='flex flex-col items-center justify-center  w-11/12 lg:w-3/6 py-14 mx-auto my-auto'>
-                    <h3 className='text-5xl'>&lt; projects /&gt;</h3>
+            <div className='flex flex-col items-center justify-center max-w-[955px]  mx-auto my-auto'>
+                    <h3 className='text-3xl lg:text-5xl'>&lt; projects /&gt;</h3>
             </div>
 
-            <div className='flex flex-row items-center justify-around w-11/12 lg:w-3/6 py-14 mx-auto my-auto'>
+            <div className='flex lg:flex-row flex-col items-center justify-center max-w-[955px] lg:w-3/6 py-14 mx-auto my-auto'>
                 
                 <div className='p-4 m-4'>
 

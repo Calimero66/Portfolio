@@ -3,7 +3,7 @@ import React from 'react';
 import Js from '../../logo/javascript.png';
 import Laravail from '../../logo/Laravail.png';
 import Lua from '../../logo/lua.png';
-import MongoDB from'../../logo/MongoDB.png';
+import MongoDB from '../../logo/MongoDB.png';
 import PHP from '../../logo/PHP.png';
 import Python from '../../logo/python.png';
 import Reac from '../../logo/React.png';
@@ -14,27 +14,28 @@ import Tailwind from '../../logo/Tailwind.png';
 import Docker from '../../logo/Docker.png';
 
 function AboutMe() {
-    
+
 
 
     return (
 
-        <>
-            <div className='border-2 bottom-[60px] border-[#f5ebd3] rounded-full bottom[-50px] h-12 w-5 z-10 absolute left-0 mx-auto right-0 before:content before:block before:h-2.5 before:w-[0.85rem] before:bg-white before:rounded-full before:top-2.5 before:animate-scrollDownAnimation'>
+        <div className='p-8'>
+            <div className=' border-2 bottom-[60px] border-[#ffffff] rounded-full h-12 w-5 z-10 absolute left-0 mx-auto right-[0px] before:content before:block before:h-[10px] before:w-[16px] before:bg-white before:rounded-full before:top-[10px] before:animate-scrollDownAnimation'>
                 <br />
-                <div className='mt-4 ml-[-14px]'>Scroll</div>
+                <div className=' mt-4 ml-[-14px]'>Scroll</div>
             </div>
             <br/>
 
-                <div className='flex flex-col items-center justify-center  w-11/12 lg:w-3/6 py-14 mx-auto my-auto '>
-                    <h3 className='text-5xl'>
+                {/* <div className='flex itSSems-center justify-center max-w-[955px] lg:text-[16px] py-14 mx-auto my-auto '> */}
+                <div className='flex flex-col items-center w-full gap-4 my-24 '>
+                    <h3 className='text-3xl lg:text-5xl'>
                     &lt; about<span className="text-primary">"me"/&gt;</span>
                     </h3>
                 </div>
 
-                <div className="z-10 flex flex-col gap-4 mt-15 text-justify mx-auto w-1/2 " >
+                <div className="z-10 flex flex-col gap-4 text-justify mx-auto my-24 max-w-[955px] " >
                     <p style={{opacity: 0.5}}>  
-                    Greetings!👋 I am a full-stack developer on an exciting journey that began at the age of 15, driven by an insatiable passion for coding.
+                    Greetings!👋 I am a full-stack developer on an exciting journey that began at the age of 20, driven by an insatiable passion for coding.
                         As a dedicated and enthusiastic individual, I have continued to nurture my skills and knowledge. ( • "Calim" or • "Calimero" is the nickname I got from my family when I was a kid ^^ .)
                     </p>
                     <p style={{opacity: 0.5}}>
@@ -50,7 +51,7 @@ function AboutMe() {
                         If you're looking for a passionate and versatile developer who thrives in both learning and professional settings, I'm ready to bring my skills to your next project.
                     </p>
                     
-                    <span className='flex flex-row justify-around' >
+                    <span className='flex flex-wrap justify-around' >
 
                         <img src={Html} alt="Html" className='relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 w-[30px] h-[30px]' />
                         <img src={Js} alt="Js" className='relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-[30px] h-[30px] ' />
@@ -70,7 +71,7 @@ function AboutMe() {
                         Let's connect and explore the possibilities of creating something remarkable! 🚀
                     </p>
                 </div>
-        </>
+        </div>
     )
 }
 

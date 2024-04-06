@@ -1,6 +1,7 @@
 import React from 'react'
 
 function ContactMe() {
+
     const handleClick = () => {
         const email = 'hamza.aboulmaali99@gmail.com'; // Change to your email address if take this code as a reference for your project #Calim
         const mailtoLink = `mailto:${email}`;
@@ -8,6 +9,7 @@ function ContactMe() {
         // Open default email client
         window.location.href = mailtoLink;
     };
+    
     return (
         <div className='flex flex-col items-center w-full gap-4 my-24'>
 
